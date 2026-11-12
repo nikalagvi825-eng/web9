@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #171717;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+    padding: 32px 6.46% 0;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 570px);
+    gap: 48px 32px;
+    margin: 149px 6.46% 80px;
+}
+
+.card {
+    width: 570px;
+    background: #fff;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+    background: transparent;
+    mix-blend-mode: multiply;
+}
+
+.card:last-child img {
+    width: 570px;
+    height: 570px;
+}
+
+.card-copy {
+    padding: 14px 0 0;
+    color: #171717;
+}
+
+.card-copy p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.card-copy p:first-child {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.card-copy p:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        padding: 24px 20px 0;
+    }
+
+    .card-grid {
+        margin-top: 149px;
+    }
+}
+#shop{
+    color: red;
+     text-decoration: none;
+}
+#tour{
+    color: black;
+     text-decoration: none;
+}
+#music{
+    color: black;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+.mainnav{
+    margin-top: 101px;
+    font-size: 20px;
+    display: flex;
+    width: 605px;
+    justify-content: space-between;
+}
+.nav2{
+    text-decoration: none;
+    color: black;
+}
+.mainnav1{
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    width: 522px;
+    font-size: 30px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
